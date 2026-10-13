@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "MyClass — Quản lý lịch học cá nhân",
+  "short_name": "MyClass",
+  "description": "Ứng dụng quản lý thời khóa biểu và lịch học cá nhân dành cho học sinh, sinh viên.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF5F5",
+  "theme_color": "#FFF5F5",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

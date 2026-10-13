@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #4A4453;
+    background-color: #FFF5F5;
+    background-image: radial-gradient(#F3D9DC 1.25px, transparent 1.25px), radial-gradient(#E5DEFF 1.25px, #FFF5F5 1.25px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Fredoka', 'Quicksand', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.cozy-card {
+  box-shadow: 0 6px 0 #EFE2E4, 0 10px 24px -6px rgba(74, 68, 83, 0.07);
+}
+
+.cozy-btn {
+  box-shadow: 0 4px 0 rgba(74, 68, 83, 0.14);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cozy-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(74, 68, 83, 0.14);
+}
+
+

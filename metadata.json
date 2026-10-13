@@ -1,0 +1,6 @@
+{
+  "name": "MyClass",
+  "description": "Ứng dụng quản lý thời khóa biểu và lịch học cá nhân dành cho học sinh, sinh viên.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
